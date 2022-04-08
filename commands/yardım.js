@@ -9,7 +9,6 @@ exports.run = function(client, message, args) {
     .setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
     .setFooter("Ghost Development")
     .setThumbnail("https://cdn.discordapp.com/avatars/864850931119554592/cb5a744cfbc4da16eec11326545ec516.png?size=256")
-   
     .setTimestamp ()
 
   var button = new MessageButton()
